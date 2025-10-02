@@ -1,0 +1,20 @@
+{
+  "name": "@openpass/sdk-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"(add eslint later)\""
+  },
+  "dependencies": {
+    "jose": "^5.9.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

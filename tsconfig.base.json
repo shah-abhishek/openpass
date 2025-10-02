@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@openpass/policy": ["packages/policy/src"],
+      "@openpass/sdk-js": ["packages/sdk-js/src"],
+      "@openpass/sdk-react": ["packages/sdk-react/src"],
+      "@openpass/sdk-node": ["packages/sdk-node/src"]
+    }
+  }
+}
